@@ -4,7 +4,7 @@ from splinter import Browser
 class test_add_agent(object):
   def __init__(self,browser_type):
     self.browser_type=browser_type
-    self.__site='http://' # 登录界面地址
+    self.__site='http://www.kuaixiuagency.com' # 登录界面地址
     self.__url='http://' # 新增业务员界面的地址
   def config(self,username='',password='',mobile='',name='',group=''):
     self.username=username
